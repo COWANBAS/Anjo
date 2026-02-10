@@ -9,11 +9,10 @@ Local = (100, 100)
 def is_tibia_running():
     return any(
         process.info['name']
-        and process.info['name'].lower() == 'client'  # Mude o nome para "client.exe" se pretende usar no Windows.
+        and process.info['name'].lower() == 'client' 
         for process in psutil.process_iter(['name'])
     )
 
-# Batendo Utamo Vita
 def press_shift_2():
     keyboard.press('shift')
     keyboard.press_and_release('2')

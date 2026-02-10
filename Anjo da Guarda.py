@@ -4,13 +4,15 @@ import keyboard
 import pyautogui
 
 Cor = (255, 0, 0)  
-Local = (100, 100)        
+
+Local = (100, 100, 200, 20)
 
 def is_tibia_running():
     return any(
         process.info['name']
         and process.info['name'].lower() == 'client' 
-        for process in psutil.process_iter(['name']))
+        for process in psutil.process_iter(['name'])
+    )
         
 def press_shift_2():
     keyboard.press('shift')
@@ -18,8 +20,13 @@ def press_shift_2():
     keyboard.release('shift')
 
 def cor_detectada():
-    pixel = pyautogui.screenshot().getpixel(Local)
-    return pixel == Cor
+    screenshot = pyautogui.screenshot(region=Local) 
+    
+    for x in range(screenshot.width):
+        for y in range(screenshot.height):
+            if screenshot.getpixel((x, y)) == Cor:
+                return True
+    return False
 
 def main():
     tibia_aberto = False

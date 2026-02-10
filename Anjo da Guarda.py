@@ -14,7 +14,7 @@ def is_tibia_running():
 
 def press_shift_2():
     keyboard.press('shift')
-    keyboard.press_and_release('2')
+    keyboard.press_and_release('@')
     keyboard.release('shift')
 
 def cor_detectada():
@@ -47,3 +47,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

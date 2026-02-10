@@ -29,7 +29,7 @@ def cor_detectada():
     screenshot = ImageGrab.grab(bbox=(x0, y0, x0 + largura, y0 + altura))
     pixels = screenshot.load()
 
-    for x in range(0, largura, 10): 
+    for x in range(0, largura, 10):  
         for y in range(0, altura, 10):
             r, g, b = pixels[x, y]
             if (r, g, b) == Cor:

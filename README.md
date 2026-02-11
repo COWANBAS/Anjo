@@ -1,4 +1,4 @@
-Quando a vida do seu char estiver na porcentagem que fica vermelha o script automaticamente apertá as teclas "Shift 2" para bater o Utamo Vita.
+Quando a vida do seu char estiver na porcentagem que fica vermelha o script automaticamente apertá as teclas "Shift2" para bater o Utamo Vita.
 
 O script foi feito para funcionar em monitores com a resolução 1920x1080 se tiver um monitor com outra resolução altere no script antes de criar o aplicativo. 
 

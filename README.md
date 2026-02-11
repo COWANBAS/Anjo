@@ -4,8 +4,6 @@ O macro foi feito para funcionar em monitores com a resolução 1920x1080 se tiv
 
 Lembrando que tem que por o Utamo Vita na hotkey "Shift 2".
 
-Não e trapaça se me beneficia.
-
 https://github.com/user-attachments/assets/2d2654af-438c-457c-b9af-b4bb3910a91a
 
 Obs se quiser alterar a cor da life e as cordenadas use esse script: https://github.com/COWANBAS/Coordenadas

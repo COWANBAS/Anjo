@@ -1,6 +1,6 @@
 Quando a vida do seu char estiver na porcentagem que fica vermelha o script automaticamente apertá as teclas "Shift 2" para bater o Utamo Vita.
 
-O macro foi feito para funcionar em monitores com a resolução 1920x1080 se tiver um monitor com outra resolução altere no script antes de criar o aplicativo. 
+O script foi feito para funcionar em monitores com a resolução 1920x1080 se tiver um monitor com outra resolução altere no script antes de criar o aplicativo. 
 
 Lembrando que tem que por o Utamo Vita na hotkey "Shift 2".
 

@@ -6,4 +6,4 @@ Lembrando que tem que por o Utamo Vita na hotkey "Shift2".
 
 https://github.com/user-attachments/assets/2d2654af-438c-457c-b9af-b4bb3910a91a
 
-Obs se quiser alterar a cor da life e as cordenadas use esse script: https://github.com/COWANBAS/Coordenadas
+Obs se quiser alterar a cor da script e as cordenadas de execução use esse script: https://github.com/COWANBAS/Coordenadas
